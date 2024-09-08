@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lobster", sans-serif;
+  font-size: 1em;
+  background: radial-gradient(
+    #e66465,
+    #9198e5
+  ); /* background-color: #ECE9EB; */
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  width: 800px;
+}
+
+button {
+  padding: 5px;
+  margin: 20px;
+  font-family: "Lobster", sans-serif;
+  font-size: 1.2em;
+}
+h1 {
+  color: red;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.2em;
+  color: red;
+}
+
+fieldset {
+  color: black;
+  border-color: red;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+input {
+  margin: 20px 5px;
+}
+
+label:hover {
+  color: red;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+button:hover {
+  color: red;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+input[type="checkbox"] {
+  accent-color: red;
+}
+
+input[type="radio"] {
+  accent-color: red;
+}
+
+#background {
+  border: solid 2px black;
+  background: #ece9eb;
+  padding: 50px;
+  border-radius: 5%;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+#myMenu {
+  border: black;
+}
+
+#topMenu {
+  margin-top: 20px;
+}
+
+/* #float {
+    float: left;
+    width: 50%;
+  } */

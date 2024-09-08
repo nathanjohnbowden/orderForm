@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lesson 10 Final</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="background">
+        <h1>The Pepperoni Paradox</h1>
+        <div>
+            <form id="myMenu">
+                <fieldset id="float">
+                    <legend>
+                        <h3>Please select your crust:</h3>
+                    </legend>
+                    <div>
+                        <label><input type="radio" name="crust" value="Original">Original Crust</label>
+                        <label><input type="radio" name="crust" value="Thin Crust">Thin Crust</label>
+                        <label><input type="radio" name="crust" value="Stuffed Crust">Stuffed Crust</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Please select your sauce:</h3>
+                    </legend>
+                    <div>
+                        <label><input type="radio" name="sauce"" value=" Classic Tomato">Classic Tomato</label>
+                        <label><input type="radio" name="sauce"" value=" Spicy Marinara">Spicy Marinara</label>
+                        <label><input type="radio" name="sauce"" value=" White Garlic">White Garlic</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Choose your toppings:</h3>
+                    </legend>
+                    <div>
+                        <h4 id="topMenu">Veggies</h4>
+                        <label><input type="checkbox" name="toppings" value="Mushrooms">Mushrooms</label>
+                        <label><input type="checkbox" name="toppings" value="Spinach">Spinach</label>
+                        <label><input type="checkbox" name="toppings" value="Olives">Olives</label>
+                    </div>
+                    <div>
+                        <h4>Meats</h4>
+                        <label><input type="checkbox" name="toppings" value="Chicken">Chicken</label>
+                        <label><input type="checkbox" name="toppings" value="Pepperoni">Pepperoni</label>
+                        <label><input type="checkbox" name="toppings" value="Sausage">Sausage</label>
+                    </div>
+                    <div>
+                        <h4>Cheese & Other</h4>
+                        <label><input type="checkbox" name="toppings" value="Cheese">Cheese</label>
+                        <label><input type="checkbox" name="toppings" value="Honey">Honey</label>
+                        <label><input type="checkbox" name="toppings" value="Pineapple">Pineapple</label>
+                    </div>
+                </fieldset>
+                <button type="submit" id="orderNowBtn">Order Now</button>
+            </form>
+        </div>
+        <div id="order">
+            <p>Completed Pizza Order:</p>
+            <div id="pizzaOrder">
+
+            </div>
+            <div id="toppings">
+
+            </div></br>
+            <p>Sales Total:</p>
+            <p id="total">$</p>
+        </div>
+    </div>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
